@@ -14,6 +14,8 @@
 		6DEEDB351E8BA4930016E3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEEDB341E8BA4930016E3EE /* Assets.xcassets */; };
 		6DEEDB381E8BA4930016E3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEEDB361E8BA4930016E3EE /* LaunchScreen.storyboard */; };
 		6DEEDB431E8BA4930016E3EE /* CustomFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEEDB421E8BA4930016E3EE /* CustomFlowLayoutTests.m */; };
+		6DEEDB501E8BA80C0016E3EE /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEEDB4E1E8BA80C0016E3EE /* CustomCell.m */; };
+		6DEEDB511E8BA80C0016E3EE /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DEEDB4F1E8BA80C0016E3EE /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		6DEEDB3E1E8BA4930016E3EE /* CustomFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEEDB421E8BA4930016E3EE /* CustomFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayoutTests.m; sourceTree = "<group>"; };
 		6DEEDB441E8BA4930016E3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DEEDB4D1E8BA80C0016E3EE /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		6DEEDB4E1E8BA80C0016E3EE /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		6DEEDB4F1E8BA80C0016E3EE /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,9 @@
 				6DEEDB361E8BA4930016E3EE /* LaunchScreen.storyboard */,
 				6DEEDB391E8BA4930016E3EE /* Info.plist */,
 				6DEEDB281E8BA4930016E3EE /* Supporting Files */,
+				6DEEDB4D1E8BA80C0016E3EE /* CustomCell.h */,
+				6DEEDB4E1E8BA80C0016E3EE /* CustomCell.m */,
+				6DEEDB4F1E8BA80C0016E3EE /* CustomCell.xib */,
 			);
 			path = CustomFlowLayout;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 			files = (
 				6DEEDB381E8BA4930016E3EE /* LaunchScreen.storyboard in Resources */,
 				6DEEDB351E8BA4930016E3EE /* Assets.xcassets in Resources */,
+				6DEEDB511E8BA80C0016E3EE /* CustomCell.xib in Resources */,
 				6DEEDB331E8BA4930016E3EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +225,7 @@
 			files = (
 				6DEEDB301E8BA4930016E3EE /* ViewController.m in Sources */,
 				6DEEDB2D1E8BA4930016E3EE /* AppDelegate.m in Sources */,
+				6DEEDB501E8BA80C0016E3EE /* CustomCell.m in Sources */,
 				6DEEDB2A1E8BA4930016E3EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A87J69XM38;
 				INFOPLIST_FILE = CustomFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smict.CustomFlowLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A87J69XM38;
 				INFOPLIST_FILE = CustomFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smict.CustomFlowLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
